@@ -1,0 +1,106 @@
+body {
+    background-color: #d3d6be;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.centered-form {
+    background-color: #EDF1D6;
+    padding: 20px 30px;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    width: 60%;
+    text-align: center;
+}
+
+.centered-form h2 {
+    margin-top: 0;
+    margin-bottom: 20px;
+}
+
+.centered-form input[type="text"],
+.centered-form input[type="submit"] {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+.centered-form input[type="submit"] {
+    background-color: #4CAF50;
+    color: white;
+    cursor: pointer;
+}
+
+.centered-form input[type="submit"]:hover {
+    background-color: #45a049;
+}
+
+.input-container {
+    position: relative;
+}
+
+.input-container input[type="text"] {
+    padding-right: 30px;
+}
+
+.input-container .icon {
+    position: absolute;
+    top: 45%;
+    right: 10px;
+    transform: translateY(-50%);
+    color: gray;
+}
+
+.icon i {
+    font-size: 18px;
+}
+
+table {
+    width: 65%;
+    border-collapse: collapse;
+    margin-top: 2%;
+}
+
+th,
+td {
+    padding: 8px;
+    text-align: left;
+    border-radius: 6px;
+    border: 1px solid #ccc;
+    background-color: #EDF1D6;
+}
+
+th {
+    font-weight: bold;
+}
+
+tr:hover {
+    background-color: #f5f5f5;
+}
+
+
+::-webkit-scrollbar {
+    width: 6px;
+}
+
+::-webkit-scrollbar-track {
+    background-color: #f1f1f1;
+}
+
+::-webkit-scrollbar-thumb {
+    background-color: #888;
+    border-radius: 5px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background-color: #555;
+}
